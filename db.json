@@ -1,39 +1,14 @@
 {
-  "pendingDelivery": [
-{
-      "id": 1,
-      "pickup": "Quezon City University",
-      "dropoff": "Quezon City Hall",
-    },
-{
-      "id": 2,
-      "pickup": "Bayan Novaliches",
-      "dropoff": "Quezon City Hall",
-    },
-{
-      "id": 3,
-      "pickup": "Sauyo",
-      "dropoff": "Quezon City Hall",
-    },
-{
-      "id": 4,
-      "pickup": "Holy Cross",
-      "dropoff": "Quezon City Hall",
-    },
-{
-      "id": 5,
-      "pickup": "Blumentritt",
-      "dropoff": "Sta Lucia",
-    },
-{
-      "id": 6,
-      "pickup": "Malinta",
-      "dropoff": "Quezon City Hall",
-    }
-  ]
- 
-
-
-
-
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
